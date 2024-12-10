@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="froms.css">
+</head>
+<body>
+
+    <section class="form">
+    <form> 
+        
+        <input type="text" name="name" id="id-name" placeholder="Nombre">
+        <input type="text" name="lastname" id="id-lastname" placeholder="Apellido">
+        <input type="email" name="email" id="id-email" placeholder="ejemplo@mail.com">
+
+        <div class="address">
+            
+            <select name="type" id="id-type">
+                <option value="">Seleccionar</option>
+                <option value="calle">Calle</option>
+                <option value="carrera">Carrera</option>
+                <option value="avenida">Avenida</option>
+                <option value="transversal">Transeversal</option>                
+            </select>
+
+            <input type="number" name="street-number" id="id-street-number">
+            
+            <select name="street-type" id="id-street-type">
+                <option value=""></option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select>
+
+            <label for="f-house-number"> # </label>
+            <input type="number" name="f-house-number" id="id-f-house-number">
+            
+            <select name="street-type" id="id-street-type">
+                <option value=""></option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select>
+
+            <label for="s-house-number"> - </label>
+            <input type="number" name="s-house-number" id="id-s-house-number">
+        </div>
+
+        <div class="department">
+            <select name="department" id="id-department">Departamento
+                <option value="">Seleccionar</option>
+                <option value="antioquia">Antioquia</option>
+                <option value="cundinamerca">Cundinamarca</option>    
+            </select>        
+        </div>
+        <div class="country">
+            <select name="country" id="id-country">
+                <option value="">Seleccionar</option>
+                <option value="colombia">Colombia</option>
+            </select>
+        </div>
+
+
+        
+    </form>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+* {
+    font-family: Montserrat;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    display:flex;
+    width: 800px;
+    height: 1000px;
+    background-color: antiquewhite;
+    position: relative;
+}
